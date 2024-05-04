@@ -1,0 +1,18 @@
+{
+  "name": "simple-webserver",
+  "version": "1.0.0",
+  "description": "Simple web server for demonstration purpose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Budi Jap",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "htmlspecialchars": "^1.0.5"
+  }
+}
